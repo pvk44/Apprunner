@@ -1,0 +1,8 @@
+version: 1.0
+runtime: docker
+build:
+  context: .
+  dockerfilePath: Dockerfile
+service:
+  port: 8080
+  healthCheckPath: /
